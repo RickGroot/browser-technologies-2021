@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquête minor Web Dev</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Enquête minor Web Dev</h1>
+        <p>
+            Dit is een enquête van minor web design en development 20/21. In deze enquête horen we graag jou mening over
+            het verloop van deze minor.
+        </p>
+    </header>
+
+    <main>
+        <form action="/data-response" method="post">
+            <fieldset>
+                <legend>Vertel iets over jezelf</legend>
+
+                <ul>
+                    <li>
+                        <label for="name">Naam:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="surname">Achternaam:</label>
+                        <input type="text" id="surname" name="user_surname">
+                    </li>
+                </ul>
+            </fieldset>
+            <li class="button">
+                <button type="submit">Verstuur antwoord</button>
+            </li>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

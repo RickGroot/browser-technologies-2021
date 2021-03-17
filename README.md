@@ -23,8 +23,8 @@ Per vak:
 - [ ] Eigen inzicht (snap je alles)
 
 ## Sketches
-|:---:|:---:|
 | ![Sketch][sketch1] | ![Sketch][sketch2] |
+|:---:|:---:|
 
 [sketch1]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch1.jpeg?raw=true "Sketch"
 [sketch2]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch2.jpeg?raw=true "Sketch"
