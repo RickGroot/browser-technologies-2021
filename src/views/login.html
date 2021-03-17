@@ -1,0 +1,38 @@
+<%- include ('./partials/header.html') %>
+
+<header>
+    <h1>Enquête minor Web Dev</h1>
+    <p>
+        Dit is een enquête van minor web design en development 20/21. In deze enquête horen we graag jou mening over
+        het verloop van deze minor.
+    </p>
+</header>
+
+
+<main>
+    <form action="home" method="post">
+        <fieldset>
+            <legend>Vertel iets over jezelf</legend>
+
+            <ul>
+                <li>
+                    <label for="name">Naam:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="surname">Achternaam:</label>
+                    <input type="text" id="surname" name="user_surname">
+                </li>
+                <li>
+                    <label for="studentnr">Studentnummer:</label>
+                    <input type="text" id="studentnr" name="user_studentnr">
+                </li>
+            </ul>
+        </fieldset>
+        <li class="button">
+            <button type="submit">Ga verder</button>
+        </li>
+    </form>
+</main>
+
+<%- include ('./partials/footer.html') %>

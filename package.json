@@ -1,0 +1,35 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "@cmda-web-dev Browser Technologies course.",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "node": "^15.10.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon src/scripts/app.js",
+    "start": "node src/scripts/app.js",
+    "build:css": "node scripts/build-css.js",
+    "watch:css": "chokidar \"src/styles/*.css\" --c \"npm run build:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickGroot/browser-technologies-2021.git"
+  },
+  "author": "Rick Groot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RickGroot/browser-technologies-2021/issues"
+  },
+  "homepage": "https://github.com/RickGroot/browser-technologies-2021#readme"
+}

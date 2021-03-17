@@ -1,0 +1,19 @@
+<%- include ('./partials/header.html') %>
+
+<header>
+    <h1>Enquête <%= course %></h1>
+</header>
+
+
+<main>
+    <form action="home" method="post">
+        <fieldset>
+            <legend>Docenten <%= course %></legend>
+        </fieldset>
+        <li class="button">
+            <button type="submit">Ga verder</button>
+        </li>
+    </form>
+</main>
+
+<%- include ('./partials/footer.html') %>

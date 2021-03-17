@@ -30,6 +30,9 @@ Per vak:
 [sketch1]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch1.jpeg?raw=true "Sketch"
 [sketch2]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch2.jpeg?raw=true "Sketch"
 
+## Research HTML forms
+Een formulies is opgebouwd als verschillende componenten. De top layer is een form attribute, deze kan je een action en method meegeven als je dat wilt. Ook heb je een fieldset, dit is een verzameling binnen je formulier die makkelijk kan worden disabled wanneer eerdere inputs nog niet voltooid zijn. Binnen een fieldset kan je werken met een unordered list met daarin een label en input. Het label is de tekst bij een formulier en de input is wat de user kan invullen/aanpassen. Deze link je aan elkaar voor goede semantische opmaak. 
+
 <!--
 Suggesties voor Browser API's linken 
 - https://platform.html5.org
