@@ -12,7 +12,8 @@
 
 - [ ] Studentgegevens (naam + nummer) verplicht
 - [ ] Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
-- [ ] Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+- [ ] Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.  
+
 Per vak:
 - [ ] Naam
 - [ ] Docenten
