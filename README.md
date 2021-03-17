@@ -7,6 +7,38 @@
 - [De eindopdracht - Progressive Enhanced Browser Technologie](course/Eindopdracht.md)
 - [Rubric](https://docs.google.com/spreadsheets/d/1MV3BWwwg_Zz1n-S_qOM4iSm4gA4M6g0xAxGacyaPuac/)
 
+# Use case, Enquete over de minor Web Development
+> Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+
+- [ ] Studentgegevens (naam + nummer) verplicht
+- [ ] Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
+- [ ] Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+Per vak:
+- [ ] Naam
+- [ ] Docenten
+- [ ] Weken waarin je het vak deed
+- [ ] Beoordeling 1-10
+- [ ] Lesstof (hoe moeilijk is het)
+- [ ] Uitleg (duidelijkheid uitleg)
+- [ ] Eigen inzicht (snap je alles)
+
+## Sketches
+|:---:|:---:|
+| ![Sketch][sketch1] | ![Sketch][sketch2] |
+
+[sketch1]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch1.jpeg?raw=true "Sketch"
+[sketch2]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch2.jpeg?raw=true "Sketch"
+
+<!--
+Suggesties voor Browser API's linken 
+- https://platform.html5.org
+- https://developer.mozilla.org/en-US/docs/Web/API
+
+Suggesties voor Design pattens voor Usability laten zien?
+- lijst?
+- UI patterns?
+-->
+
 ## Planning & programma
 
 | Planning  | Woensdag  |  Donderdag | Vrijdag  |
