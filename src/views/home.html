@@ -6,29 +6,24 @@
 </header>
 
 <main>
+    <h2>Nog te maken:</h2>
     <ul>
-        <li>
-            <a href="enq/PWA">PWA</a>
-        </li>
-        <li>
-            <a href="enq/browser-technologies">Browser Technologies</a>
-        </li>
-        <li>
-            <a href="enq/WAFS">WAFS</a>
-        </li>
-        <li>
-            <a href="enq/CSS-to-the-resque">CSS-to-the-resque</a>
-        </li>
-        <li>
-            <a href="enq/Real-time-web">Real-time-web</a>
-        </li>
-        <li>
-            <a href="enq/HCD">HCD</a>
-        </li>
-        <li>
-            <a href="enq/Meesterproef">Meesterproef</a>
-        </li>
+        <% make.forEach(enq => { %>
+            <li>
+                <a href="enq/<%= enq %>"><%= enq %></a>
+            </li>
+        <% }); %>
     </ul>
+    <section>
+        <h2>Al afgerond:</h2>
+        <ul>
+            <% done.forEach(enq => { %>
+                <li>
+                    <p><%= enq %></p>
+                </li>
+            <% }); %>
+        </ul>
+    </section>
 </main>
 
 <%- include ('./partials/footer.html') %>

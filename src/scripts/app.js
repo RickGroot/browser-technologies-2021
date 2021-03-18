@@ -17,7 +17,6 @@ app
     .post('/home', render.home)
     .get('/enq/:course', render.course)
     .get('/', redirect)
-    .get('/test', render.test)
     .get('/login', render.login)
     .get('*', error)
 

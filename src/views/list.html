@@ -6,13 +6,55 @@
 
 
 <main>
-    <form action="home" method="post">
+    <form action="/home" method="post">
         <fieldset>
             <legend>Docenten <%= course %></legend>
+            <% data.lecturer.forEach(lecturer => { %>
+            <input type="radio" id="<%= lecturer %>" name="lecturer" value="<%= lecturer %>">
+            <label for="<%= lecturer %>"><%= lecturer %></label>
+            <% }); %>
         </fieldset>
-        <li class="button">
-            <button type="submit">Ga verder</button>
-        </li>
+        <fieldset>
+            <legend>In welke week werd <%= course %> beoordeeld?</legend>
+            <label for="week">Beoordeling in week:</label>
+            <input type="week" id="week">
+        </fieldset>
+        <fieldset>
+            <legend>Geef <%= course %> een cijfer</legend>
+            <label for="grade">Mijn cijfer:</label>
+            <input type="number" min="1" max="10" step="1" id="grade">
+        </fieldset>
+        <fieldset>
+            <legend>Hoe was de lesstof?</legend>
+            <input type="radio" id="material_good" name="material" value="good">
+            <label for="material_good">Boven verwachtingen</label>
+            <input type="radio" id="material_medium" name="material" value="medium">
+            <label for="material_medium">Zoals verwacht</label>
+            <input type="radio" id="material_bad" name="material" value="bad">
+            <label for="material_bad">Slechter als verwacht</label>
+        </fieldset>
+        <fieldset>
+            <legend>Werd alles goed uitgelegd?</legend>
+            <input type="radio" id="content_good" name="content" value="good">
+            <label for="content_good">Alles werdt tot in hoog detail uitgelegd</label>
+            <input type="radio" id="content_medium" name="content" value="medium">
+            <label for="content_medium">Alles werd uitgelegd tot op redelijk niveau</label>
+            <input type="radio" id="content_bad" name="content" value="bad">
+            <label for="content_bad">Uitleg ging niet diep de stof in</label>
+        </fieldset>
+        <fieldset>
+            <legend>Ik heb van dit vak veel geleerd</legend>
+            <input type="radio" id="learning_good" name="learning" value="good">
+            <label for="learning_good">Ja</label>
+            <input type="radio" id="learning_bad" name="learning" value="bad">
+            <label for="learning_bad">Nee</label>
+        </fieldset>
+        <fieldset>
+            <legend>Opmerkingen</legend>
+            <label for="comments"></label>
+            <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+        </fieldset>
+        <input type="submit"></input>
     </form>
 </main>
 
