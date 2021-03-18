@@ -1,3 +1,7 @@
+const fs = require('fs')
+let path = "./public/scripts/data.json"
+let data = JSON.parse(fs.readFileSync(path, "utf8"))
+
 function test(req, res) {
     res.render('home', {
         name: 'Rick',
@@ -19,9 +23,25 @@ function login(req, res) {
 }
 
 function home(req, res) {
+    console.log(req.body)
+    let user = req.body
+
+    if (data[user.user_studentnr]) {
+        console.log('hi')
+    } else {
+        let newUser = {
+            user_name: user.user_name,
+            user_surname: user.user_surname,
+            user_studentnr: user.user_studentnr,
+            enq: []
+        }
+        let json = JSON.stringify(newUser)
+        fs.writeFile(path, json, "utf8", callback)
+    }
+    
     res.render('home', {
         title: 'Mijn enquêtes',
-        name: req.body.name
+        name: user.user_name + ' ' + user.user_surname
     })
 }
 
