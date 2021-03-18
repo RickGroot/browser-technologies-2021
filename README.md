@@ -33,18 +33,18 @@ Per vak:
 ## Research HTML forms
 Een formulies is opgebouwd als verschillende componenten. De top layer is een form attribute, deze kan je een action en method meegeven als je dat wilt. Ook heb je een fieldset, dit is een verzameling binnen je formulier die makkelijk kan worden disabled wanneer eerdere inputs nog niet voltooid zijn. Binnen een fieldset kan je werken met een unordered list met daarin een label en input. Het label is de tekst bij een formulier en de input is wat de user kan invullen/aanpassen. Deze link je aan elkaar voor goede semantische opmaak. 
 
-**Form elementen:**
+### Form elementen:
 ```html
-<form>
-<fieldset>
-<legend>
-<textarea>
-<label>
-<button>
-<input>
+<form></form>
+<fieldset></fieldset>
+<legend></legend>
+<textarea></textarea>
+<label></label>
+<button></button>
+<input></input>
 ```
 
-**Input types:**
+### Input types:
 * type="text"
 * type="button"
 * type="checkbox"
@@ -68,7 +68,7 @@ Een formulies is opgebouwd als verschillende componenten. De top layer is een fo
 * type="week"
 * type="color"
 
-**HTML voorbeeld:**
+### HTML voorbeeld:
 ```html
 <form action="/where-next" method="post">
     <fieldset>
