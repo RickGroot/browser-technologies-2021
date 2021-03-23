@@ -6,7 +6,7 @@
 
 
 <main>
-    <form action="/home" method="post">
+    <form action="/<%= id %>/enq-redirect/<%= course %>" method="post">
         <fieldset>
             <legend>Docenten <%= course %></legend>
             <% data.lecturer.forEach(lecturer => { %>

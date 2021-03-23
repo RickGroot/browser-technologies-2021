@@ -15,13 +15,25 @@
 - [ ] Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.  
 
 Per vak:
-- [ ] Naam
+- [x] Naam
 - [ ] Docenten
 - [ ] Weken waarin je het vak deed
 - [ ] Beoordeling 1-10
 - [ ] Lesstof (hoe moeilijk is het)
 - [ ] Uitleg (duidelijkheid uitleg)
 - [ ] Eigen inzicht (snap je alles)
+
+## Core functionaliteit
+Een enquête invullen op elk device en onder alle omstandigheden. Verder kunnen gaan bij de enquête waar je gebleven was, een lijst met enquêtes die nog gedaan moeten worden en die al gedaan zijn.
+
+## Link naar demo
+N/A, work in progress
+
+## Browsers
+In ga mijn concept in de volgende browsers testen:
+* Google chrome
+* Firefox
+* Microsoft edge
 
 ## Sketches
 | ![Sketch][sketch1] | ![Sketch][sketch2] |
@@ -124,7 +136,7 @@ Door middel van CSS kan ik al makkelijk goede error messages geven, en highlight
 * Extra teksten bij lege inputs. 
 
 ### JS
-* Localstorage, data snel opslaan tijdens een formulier. 
+* Localstorage, data snel opslaan tijdens een formulier.
 * Andere leuke enhancements, nog work in progress.
 
 <!--
