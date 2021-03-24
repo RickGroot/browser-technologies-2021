@@ -13,13 +13,18 @@
   },
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
+    "concurrently": "^6.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0",
     "nodemon": "^2.0.7"
   },
   "scripts": {
     "dev": "nodemon src/scripts/app.js",
     "start": "node src/scripts/app.js",
+    "watch": "concurrently --kill-others \"npm run watch:css\" \"npm run watch:js\"",
+    "build:js": "node scripts/build-js.js",
     "build:css": "node scripts/build-css.js",
+    "watch:js": "chokidar \"src/scripts/client/*.js\" --c \"npm run build:js\"",
     "watch:css": "chokidar \"src/styles/*.css\" --c \"npm run build:css\""
   },
   "repository": {
