@@ -18,6 +18,7 @@ app
     .post('/:id/enq-redirect/:course', render.enqPost)
     .get('/:id/home', render.home)
     .get('/:id/enq/:course', render.course)
+    .get('/:id/view/:course', render.review)
     .get('/', redirect)
     .get('/login', render.login)
     .get('*', error)

@@ -38,15 +38,31 @@ function pushEnq(enq, user, course) {
     });
 }
 
-/*
-{
-  lecturer: 'Koop',
-  material: 'medium',
-  content: 'medium',
-  learning: 'good',
-  comments: ''
+function updateEnq(enq, user, course) {
+    let key = course
+
+    data[user].enq.assign({
+        [key]: {
+            lecturer: enq.lecturer,
+            period: enq.period,
+            grade: enq.grade,
+            material: enq.material,
+            content: enq.content,
+            learning: enq.learning,
+            comments: enq.comments
+        }
+    })
+
+    fs.writeFile(path, JSON.stringify(data), (err) => {
+        if (err) console.error(err)
+    });
 }
-*/
+
+function getDoneEnq(user, course) {
+    let array = data[user].enq
+    let userData = array.find(({course}) => course === course);
+    return userData;
+}
 
 function getUserData(user) {
     let userData = data[user];
@@ -91,7 +107,8 @@ function doneEnq(user) {
 module.exports = {
     pushUserData,
     pushEnq,
-    getUserData,
     getEnq,
+    getUserData,
+    getDoneEnq,
     doneEnq
 }

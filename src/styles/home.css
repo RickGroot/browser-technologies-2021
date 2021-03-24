@@ -75,6 +75,6 @@ section ul li {
     background-color: rgb(82, 82, 82);
 }
 
-#done li p {
+#done li a {
     color: white;
 }

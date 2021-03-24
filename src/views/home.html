@@ -21,7 +21,7 @@
         <ul id="done">
             <% done.forEach(enq => { %>
             <li>
-                <p><%= enq %></p>
+                <a href="view/<%= enq %>"><%= enq %></a>
             </li>
             <% }); %>
         </ul>
