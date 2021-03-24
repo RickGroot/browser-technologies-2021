@@ -27,7 +27,7 @@ Per vak:
 Een enquête invullen op elk device en onder alle omstandigheden. Verder kunnen gaan bij de enquête waar je gebleven was, een lijst met enquêtes die nog gedaan moeten worden en die al gedaan zijn.
 
 ## Link naar demo
-N/A, work in progress
+[Live Demo](https://rick-groot-browser-tech.herokuapp.com/)
 
 ## Browsers
 In ga mijn concept in de volgende browsers testen:
