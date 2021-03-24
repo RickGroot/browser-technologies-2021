@@ -5,7 +5,7 @@ async function course(req, res) {
     let course = await courseData(req.params.course)
 
     res.render('list', {
-        title: 'Enquête' + req.params.course,
+        title: 'Enquête ' + req.params.course,
         course: req.params.course,
         data: course,
         id: req.params.id

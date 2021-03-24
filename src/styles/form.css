@@ -1,0 +1,72 @@
+#enq form {
+    width: calc(100vw - (2 * var(--padding-body)));
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#enq fieldset {
+    --color-var: 255, 255, 255;
+    background-color: rgba(var(--color-var), 0.3);
+    max-width: 500px;
+    padding: 0 16px 16px 16px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    border: 2px solid black;
+    border-top: none;
+    margin-bottom: 1em;
+}
+
+#enq fieldset:focus-within,
+#enq fieldset:hover {
+    background-color: rgba(var(--color-var), 0.6);
+}
+
+#enq legend {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 1.5em;
+}
+
+#enq input[type=radio] {
+    appearance: none;
+}
+
+#enq .radio label {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+#enq>form>fieldset:not(.radio)>legend {
+    margin-bottom: 0.5em;
+}
+
+
+#enq input:focus,
+#enq input:hover {
+    transition: all 0.2s ease;
+    background-color: rgb(207, 207, 207);
+}
+
+#enq .radio input:focus + label,
+#enq .radio input:hover + label,
+#enq .radio input:checked + label {
+    transition: all 0.2s ease;
+    background-color: rgb(121, 255, 215);
+    box-shadow: 1px 1px 2px 0px #000000;
+}
+
+textarea {
+    width: 100%;
+}
+
+#enq input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 3px 6px;
+}

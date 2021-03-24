@@ -1,6 +1,6 @@
 <%- include ('./partials/header.html') %>
 
-<header>
+<header id="loginhead">
     <h1>Enquête minor Web Dev</h1>
     <p>
         Dit is een enquête van minor web design en development 20/21. In deze enquête horen we graag jou mening over
@@ -9,19 +9,21 @@
 </header>
 
 
-<main>
+<main id="login">
     <form action="/login-redirect" method="post">
         <fieldset>
             <legend>Vertel iets over jezelf</legend>
 
             <label for="name">Naam:</label>
-            <input type="text" id="name" name="user_name">
+            <input type="text" id="name" name="user_name" required>
+            <br>
             <label for="surname">Achternaam:</label>
-            <input type="text" id="surname" name="user_surname">
+            <input type="text" id="surname" name="user_surname" required>
+            <br>
             <label for="studentnr">Studentnummer:</label>
-            <input type="text" id="studentnr" name="user_studentnr">
+            <input type="text" id="studentnr" name="user_studentnr" required>
         </fieldset>
-        <input type="submit"></input>
+        <input type="submit" value="Ga verder"></input>
     </form>
 </main>
 

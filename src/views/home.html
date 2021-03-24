@@ -1,26 +1,28 @@
 <%- include ('./partials/header.html') %>
 
-<header>
+<header id="home">
     <h1>Hallo <%= name %></h1>
     <p>Deze enquêtes zijn voor jou</p>
 </header>
 
-<main>
-    <h2>Nog te maken:</h2>
-    <ul>
-        <% make.forEach(enq => { %>
+<main id="overview">
+    <section>
+        <h2>Nog te maken:</h2>
+        <ul id="todo">
+            <% make.forEach(enq => { %>
             <li>
                 <a href="enq/<%= enq %>"><%= enq %></a>
             </li>
-        <% }); %>
-    </ul>
+            <% }); %>
+        </ul>
+    </section>
     <section>
         <h2>Al afgerond:</h2>
-        <ul>
+        <ul id="done">
             <% done.forEach(enq => { %>
-                <li>
-                    <p><%= enq %></p>
-                </li>
+            <li>
+                <p><%= enq %></p>
+            </li>
             <% }); %>
         </ul>
     </section>

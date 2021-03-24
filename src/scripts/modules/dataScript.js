@@ -24,6 +24,8 @@ function pushEnq(enq, user, course) {
     data[user].enq.push({
         [key]: {
             lecturer: enq.lecturer,
+            period: enq.period,
+            grade: enq.grade,
             material: enq.material,
             content: enq.content,
             learning: enq.learning,

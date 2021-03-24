@@ -1,3 +1,37 @@
+:root {
+    --padding-body: 10vw;
+    --color1: #04b2f1;
+    --color2: #03cd83;
+    --color3: #f8e500;
+    --color4: #ff6513;
+}
+
+*,
+html,
 body {
-    background-color: rgb(145, 145, 145);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: rgb(170, 227, 255);
+    background: linear-gradient(135deg, var(--color1) 0%, var(--color2) 50%, var(--color3) 75%, var(--color4) 150%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0 var(--padding-body);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+}
+
+br {
+    display: none;
 }
