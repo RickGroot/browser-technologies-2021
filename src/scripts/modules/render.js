@@ -15,7 +15,6 @@ async function course(req, res) {
 async function review(req,res) {
     let course = await courseData(req.params.course);
     let userData = await dataScript.getDoneEnq(req.params.id, req.params.course);
-    console.log(userData)
 
     res.render('done', {
         title: 'Enquête ' + req.params.course,

@@ -39,7 +39,7 @@ let storeInputData = function () {
 }
 
 if (document.querySelector) {
-    let input = document.querySelector("input[type=number]");
+    let input = document.querySelector(".number input[type=number]");
     changeSliders(input);
 
     let slider = document.querySelector(".slider");
