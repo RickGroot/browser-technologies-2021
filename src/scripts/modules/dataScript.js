@@ -38,29 +38,15 @@ function pushEnq(enq, user, course) {
     });
 }
 
-function updateEnq(enq, user, course) {
-    let key = course
-
-    data[user].enq.assign({
-        [key]: {
-            lecturer: enq.lecturer,
-            period: enq.period,
-            grade: enq.grade,
-            material: enq.material,
-            content: enq.content,
-            learning: enq.learning,
-            comments: enq.comments
+function getDoneEnq(user, course) {
+    let array = data[user].enq;
+    let userData;
+    array.forEach(item => {
+        let key = Object.keys(item)[0];
+        if (key === course) {
+            userData = item[key];
         }
     })
-
-    fs.writeFile(path, JSON.stringify(data), (err) => {
-        if (err) console.error(err)
-    });
-}
-
-function getDoneEnq(user, course) {
-    let array = data[user].enq
-    let userData = array.find(({course}) => course === course);
     return userData;
 }
 
