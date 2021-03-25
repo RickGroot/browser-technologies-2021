@@ -62,11 +62,3 @@
 #login input[type=text]:active {
     width: 100%;
 }
-
-#login input[type=submit] {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1em;
-    font-size: 1.2em;
-    padding: 3px 6px;
-}

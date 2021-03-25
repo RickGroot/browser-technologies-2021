@@ -45,8 +45,8 @@
 }
 
 
-#enq input:focus,
-#enq input:hover {
+#enq input:not([type=submit]):focus,
+#enq input:not([type=submit]):hover {
     transition: all 0.2s ease;
     background-color: rgb(207, 207, 207);
 }
@@ -59,20 +59,18 @@
     box-shadow: 1px 1px 2px 0px #000000;
 }
 
+.slider {
+    margin: auto;
+    height: 1em;
+}
+
+.slider + p {
+    margin-left: 1em;
+    display: inline-block;
+}
+
 textarea {
     width: 100%;
-}
-
-#enq input[type=submit] {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1em;
-    font-size: 1.2em;
-    padding: 3px 6px;
-}
-
-.none {
-    display: none;
 }
 
 #results {

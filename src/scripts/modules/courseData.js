@@ -12,27 +12,27 @@ module.exports = function getData(param) {
         return data;
     } else if (param === 'CSS-to-the-rescue') {
         data = {
-            lecturer: ["Docent_1", "Docent_2"]
+            lecturer: ["Sanne", "Vasilis"]
         };
         return data;
     } else if (param === 'WAFS') {
         data = {
-            lecturer: ["Docent_1", "Docent_2", "Docent_3"]
+            lecturer: ["Joost", "Suus"]
         };
         return data;
     } else if (param === 'Real-time-web') {
         data = {
-            lecturer: ["Docent_1", "Docent_2"]
+            lecturer: ["Joost", "Koop"]
         };
         return data;
     } else if (param === 'HCD') {
         data = {
-            lecturer: ["Docent_1", "Docent_2"]
+            lecturer: ["Vasilis", "Joost"]
         };
         return data;
     } else if (param === 'Meesterproef') {
         data = {
-            lecturer: ["Docent_1", "Docent_2"]
+            lecturer: ["Koop", "Joost"]
         };
         return data;
     }

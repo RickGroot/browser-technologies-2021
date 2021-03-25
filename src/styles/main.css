@@ -35,3 +35,22 @@ main {
 br {
     display: none;
 }
+
+input[type=submit] {
+    display: block;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 3px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: all 0.2s ease;
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus {
+    background-color: rgb(166, 255, 228);
+    color: black;
+}
