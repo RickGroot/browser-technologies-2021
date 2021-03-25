@@ -21,10 +21,17 @@ app
     .get('/:id/view/:course', render.review)
     .get('/', redirect)
     .get('/login', render.login)
+    .get('/offline', offline)
     .get('*', error)
 
 function redirect(req, res) {
     res.redirect('/login');
+}
+
+function offline(req, res) {
+    res.render('offline', {
+        title: "Offline"
+    })
 }
 
 function error(req, res) {

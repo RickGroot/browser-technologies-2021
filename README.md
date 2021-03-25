@@ -36,6 +36,7 @@ Mobile browsers:
 * Google chrome
 * Firefox
 * Samsung internet
+* Safari
 
 ## 3 lagen problemen
 Met javascript kan ik veel dingen aanpassen en opslaan. Bij een formulier is het handig om met localstorage dingen op te slaan, zodat je daar later mee door kan. Wanneer dit niet beshcikbaar is kan je moeilijk data opslaan, vooral binnen een formulier. Het is handig om de vakken op te splitsen in verschillende formulieren, die vervolgens kunnen opgeslagen worden naar de server. Op deze manier kan de gebruiker doorgaan waar hij/zij gebleven is, alleen dan op formulier niveau en niet op inputfield niveau. Als je elke input gaat pushen naar een data bestand is het wel mogelijk om tijdens een formulier te stoppen en later verder te gaan, alleen dit maakt de pagina wel traag en is dis minder handig bij tragere verbindingen.
@@ -139,21 +140,5 @@ Een formulies is opgebouwd als verschillende componenten. De top layer is een fo
 [sketch1]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch1.jpeg?raw=true "Sketch"
 [sketch2]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch2.jpeg?raw=true "Sketch"
 
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+# Licence
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

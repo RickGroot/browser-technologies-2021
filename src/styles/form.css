@@ -29,7 +29,6 @@
 }
 
 #enq input[type=radio] {
-    -webkit-appearance: none;
     appearance: none;
     opacity: 0;
 }
