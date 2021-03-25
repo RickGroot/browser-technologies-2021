@@ -14,11 +14,6 @@
             <label for="<%= lecturer %>"><%= lecturer %></label>
             <% }); %>
         </fieldset>
-        <!-- <fieldset>
-            <legend>In welke week werd <%= course %> beoordeeld?</legend>
-            <label for="week">Beoordeling in week:</label>
-            <input type="week" id="week" required>
-        </fieldset> -->
         <fieldset class="radio">
             <legend>Wanneer volgde je dit vak?</legend>
             <input type="radio" id="period1" name="period" value="Week 1 t/m 4" required>
@@ -51,10 +46,12 @@
         </fieldset>
         <fieldset class="radio">
             <legend>Werd alles goed uitgelegd?</legend>
-            <input type="radio" id="content_good" name="content" value="Alles werdt tot in hoog detail uitgelegd" required>
+            <input type="radio" id="content_good" name="content" value="Alles werdt tot in hoog detail uitgelegd"
+                required>
             <label for="content_good">Alles werdt tot in hoog detail uitgelegd</label>
             <br>
-            <input type="radio" id="content_medium" name="content" value="Alles werd uitgelegd tot op redelijk niveau" required>
+            <input type="radio" id="content_medium" name="content" value="Alles werd uitgelegd tot op redelijk niveau"
+                required>
             <label for="content_medium">Alles werd uitgelegd tot op redelijk niveau</label>
             <br>
             <input type="radio" id="content_bad" name="content" value="Uitleg ging niet diep de stof in" required>
@@ -73,7 +70,7 @@
             <label for="comments"></label>
             <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
         </fieldset>
-        <input type="submit"></input>
+        <input type="submit" value="Verstuur"></input>
     </form>
 </main>
 
