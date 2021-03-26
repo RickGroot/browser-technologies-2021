@@ -53,6 +53,7 @@ Met javascript kan ik veel dingen aanpassen en opslaan. Bij een formulier is het
 
 ### JS
 * Localstorage, inlogdata opslaan in de browser.
+* Localstorage bij elke enquête, alle data word opgeslagen voor een volgende keer.
 * Slider bij formulier.
 
 ## Research HTML forms
