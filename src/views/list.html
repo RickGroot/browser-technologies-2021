@@ -1,12 +1,12 @@
 <%- include ('./partials/header.html') %>
 
 <header id="home">
-    <h1>Enquête <%= course %></h1>
+    <h1 id="tagname">Enquête <%= course %></h1>
 </header>
 
 
 <main id="enq">
-    <form action="/<%= id %>/enq-redirect/<%= course %>" method="post">
+    <form action="/<%= id %>/enq-redirect/<%= course %>" method="post" id="form">
         <fieldset class="radio">
             <legend>Docenten <%= course %></legend>
             <% data.lecturer.forEach(lecturer => { %>
