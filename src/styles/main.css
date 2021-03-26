@@ -37,9 +37,11 @@ br {
     display: none;
 }
 
-input[type=submit] {
+input[type=submit],
+a.back {
     display: block;
     color: white;
+    width: fit-content;
     background-color: rgb(44, 44, 44);
     border-radius: 3px;
     border: none;
@@ -51,7 +53,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover,
-input[type=submit]:focus {
+input[type=submit]:focus,
+a.back:hover,
+a.back:focus {
     background-color: rgb(166, 255, 228);
     color: black;
+}
+
+a.back {
+    margin-top: 2em;
 }

@@ -78,3 +78,10 @@ section ul li {
 #done li a {
     color: white;
 }
+
+#done li:hover,
+#done li a:hover,
+#done li a:focus {
+    transition: all 0.2s ease;
+    background-color: rgb(20, 20, 20);
+}

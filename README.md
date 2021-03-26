@@ -134,11 +134,8 @@ Een formulies is opgebouwd als verschillende componenten. De top layer is een fo
 ```
 
 ## Eerste sketches
-| ![Sketch][sketch1] | ![Sketch][sketch2] |
-|:---:|:---:|
-
+![Sketch][sketch1]
 [sketch1]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch1.jpeg?raw=true "Sketch"
-[sketch2]: https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/sketch2.jpeg?raw=true "Sketch"
 
 # Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
