@@ -28,7 +28,7 @@ Een enquête invullen op elk device en onder alle omstandigheden. Verder kunnen 
 ![Preview](https://github.com/rickgroot/browser-technologies-2021/blob/main/assets/readme/preview.jpg?raw=true)
 
 ## Table of contents 
-* [Browsers](https://github.com/RickGroot/browser-technologies-apps-2021#browsers)
+* [Browsers](https://github.com/RickGroot/browser-technologies-2021#browsers)
 * [Features in 3 lagen](https://github.com/RickGroot/browser-technologies-2021#features-in-3-lagen)
 * [Research forms](https://github.com/RickGroot/browser-technologies-2021#research-html-forms)
 * [Sketches](https://github.com/RickGroot/browser-technologies-2021#eerste-sketches)
