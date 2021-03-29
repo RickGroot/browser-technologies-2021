@@ -61,7 +61,7 @@ Met javascript kan ik veel dingen aanpassen en opslaan. Bij een formulier is het
 * Overzichtelijke lijst van nog in te vullen formulieren.
 <details>
 <summary>Meer uitleg over HTML</summary>
-Door de HTML goed semantisch neer te zetten wordt de pagina sneller toeghankelijk voor meer mensen. Zo hebben screenreaders bijvoorbeeld veel aan een goede HTML structuur, maar wanneer de CSS niet wordt ingeladen moet de enquête evengoed toeghankelijk zijn. Door gebruik te maken van de `<br>` tag is de HTML overzichtelijk en toegankelijk voor het brede publiek. Wanneer alleen HTML geladen wordt kan de gebruiker evengoed nog goed de core-functionaliteit van deze site gebruiken.
+Door de HTML goed semantisch neer te zetten wordt de pagina sneller toeghankelijk voor meer mensen. Zo hebben screenreaders bijvoorbeeld veel aan een goede HTML structuur, maar wanneer de CSS niet wordt ingeladen moet de enquête evengoed toeghankelijk zijn. Door gebruik te maken van de "break" tag is de HTML overzichtelijk en toegankelijk voor het brede publiek. Wanneer alleen HTML geladen wordt kan de gebruiker evengoed nog goed de core-functionaliteit van deze site gebruiken.
 </details>
 
 
@@ -189,6 +189,7 @@ Start local dev environment.
 Build export.
 ```bash
   $ npm start
+```
 
 # Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
